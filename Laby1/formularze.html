@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>Formularz</title>
+</head>
+<body>
+<div id="kontener">
+    <div id="baner"><h2>Pierwsze labki</h2></div>
+    <div id="menu">
+        <a href="index.html">Podstawowe znaczniki</a>
+        <a href="tabele.html">Tworzenie tabel</a>
+        <a href="formularze.html">Budowa formularzy</a>
+    </div>
+    <div id="tresc">
+        <h3>Przykładowy formularz HTML:</h3>
+        <div>
+            <form action="mailto:" method="post">
+                <!-- Przykładowe typy znacznika input -->
+                Nazwisko : <input type="text" name="nazwisko"/> <br />
+                Wiek: <input type="password" name="wiek"/> <br /><br />
+
+                Adres e-mail: <input type="email" name="email"/> <br /><br />
+                Zamawiam tutorial z jezyka: <br />
+                <input type="checkbox" name="C" value="C" /> Język C/C++
+                <input type="checkbox" name="Java" value="J" /> Język Java
+                <input type="checkbox" name="PHP" value="PHP" /> Język PHP <br />
+                Sposób Płatności: <br />
+                <input type="radio" name="karta" value="Ff" /> Firefox
+                <input type="radio" name="karta" value="Ch" /> Chrome
+                <input type="radio" name="karta" value="II" />
+                Internet Explorer<br />
+                <input type="submit" value="Wyślij" />
+                <input type="reset" value="Wyczyść" />
+                <!-- Inne znaczniki pól formularza -->
+                <br />Wskaż hobby i uzasadnij dlaczego to lubisz:
+                <br />
+                <select size="3" name="hobby" multiple="multiple">
+                    <option value="t">Turystyka</option>
+                    <option value="m">Muzyka</option>
+                    <option value="f">Film</option>
+                    <option value="s">Sport</option>
+                    <option value="i">Inne</option>
+                </select><br />
+                <textarea cols="10" rows="3" name="opinia">
+Po prostu lubię.
+</textarea><br />
+                <button name="Kliknij" value="Klikniety">
+                    Kliknij tutaj
+                </button>
+            </form>
+        </div>
+    </div>
+    <div id="stopka"> &copy;JB</div>
+</div>
+</body>
+
+</html>
